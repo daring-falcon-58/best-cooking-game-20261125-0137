@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #241a10;
+  color: #f3e6c8;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+main { padding: 18px 12px 28px; max-width: 1300px; }
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+  background: #e9dcc3;
+}
+.keys { text-align: center; font-size: 15px; margin: 14px 0 6px; }
+.keys b { color: #ffc46b; }
+.about { text-align: center; font-size: 13px; color: #c9a06a; max-width: 900px; margin: 0 auto; line-height: 1.5; }
